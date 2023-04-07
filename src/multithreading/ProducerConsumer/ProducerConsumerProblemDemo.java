@@ -5,6 +5,7 @@ public class ProducerConsumerProblemDemo {
     public static void main(String[] args) {
         System.out.println("Main starting");
 
+
         Thread thread1 = new Thread(()->{
             try{
                 Thread.sleep(1);

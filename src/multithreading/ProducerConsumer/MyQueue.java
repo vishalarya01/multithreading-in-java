@@ -7,7 +7,6 @@ public class MyQueue {
 
     private int capacity;
     private Queue<Integer> queue;
-
     public MyQueue(int capacity){
         queue = new LinkedList<>();
         capacity = capacity;
