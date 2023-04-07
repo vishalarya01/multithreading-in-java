@@ -5,7 +5,6 @@ public class Demo {
     public static void main(String[] args) {
 
         System.out.println("Main starting");
-
         MyStack stack = new MyStack(5);
 
         new Thread(()-> {

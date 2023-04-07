@@ -14,6 +14,7 @@ public class MyStack {
         lock = new Object();
     }
 
+
     // two ways - synchronized block and synchronized method
     // synchronized method - where is lock then ? internally it is current object i.e (this) as lock
     public synchronized boolean push(int ele){
