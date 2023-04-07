@@ -10,7 +10,7 @@ public class ThreadTestDemo {
 
         // by implementing runnable interface, passing the object of runnable interface to the
         // constructor of thread class
-//        Thread thread2 = new Thread(new MySecondThread(),"thread2");
+        // Thread thread2 = new Thread(new MySecondThread(),"thread2");
 
 
         // can use lambda also like this
